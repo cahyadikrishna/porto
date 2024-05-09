@@ -1,0 +1,26 @@
+---
+import hero from '../assets/images/chy-hero.png'
+import decoration from '../assets/images/chy-decoration.png'
+---
+
+<section class="pt-[86px] h-screen mx-[20px] z-100 lg:mx-0">
+  <div
+    class="flex flex-col h-full items-center lg:flex-row lg:m-auto lg:max-w-[1216px]"
+  >
+    <h1 class="w-full mt-[60px] lg:mt-0 lg:w-[640px]">
+      <span class="font-bold text-[28px] lg:text-[46px]">Cahyadi Krishna,</span>
+      <br />
+      <span class="font-bold text-[32px] lg:text-[54px]">
+        Front-End Web Developer
+      </span>
+    </h1>
+
+    <div class="-z-10">
+      <img src={decoration} class="absolute right-0 lg:top-0" />
+      <img
+        src={hero}
+        class="absolute bottom-0 right-[10px] lg:right-[100px] 2xl:w-[1000px]"
+      />
+    </div>
+  </div>
+</section>

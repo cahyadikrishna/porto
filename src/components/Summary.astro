@@ -1,0 +1,27 @@
+---
+import ListProject from './ListProject'
+---
+
+<section class="bg-dark-secondary -mt-[2px]">
+  <div
+    class="flex flex-col gap-[80px] py-[120px] lg:flex-row lg:m-auto lg:max-w-[1216px]"
+  >
+    <h2 class="font-bold text-[40px]">
+      I love to do Web Dev and Create Meaningfull Design.
+    </h2>
+
+    <div class="flex flex-col gap-[20px]">
+      <p>
+        Seorang Mahasiswa Jurusan Sistem Informasi yang menyukai tentang User
+        Interface Design. Saat ini bertempat tinggal di Bali - Gianyar.
+      </p>
+      <p>
+        Mulai menyukai tentang UI Design sejak SMK dan telah mengikuti beberapa
+        lomba web design. Hingga kini masih sangat senang mengeksplorasi layout
+        dan sedang menyukai Dark UI.
+      </p>
+
+      <ListProject client:only="react" />
+    </div>
+  </div>
+</section>
